@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="DecimalStyle.widget.DecimalStyle" needsEntityContext="true" 
+    xmlns="http://www.mendix.com/widget/1.0/">
+    <name>DecimalStyle</name>
+    <description>The description of this widget.</description>
+    <icon />
+    <properties>
+        <property key="field" type="attribute" required="true">
+          <caption>Attribute</caption>
+          <category>General</category>
+          <description>What field to display</description>
+          <attributeTypes>
+            <attributeType name="Decimal" />
+          </attributeTypes>
+        </property>
+        <property key="beforeClassname" type="string" required="false">
+          <caption>Before</caption>
+          <category>General</category>
+          <description></description>
+        </property>
+        <property key="afterClassname" type="string" required="false">
+          <caption>After</caption>
+          <category>General</category>
+          <description>This classname will show on the numbers after the decimal.</description>
+        </property>
+    </properties>
+</widget>
