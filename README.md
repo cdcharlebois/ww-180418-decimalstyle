@@ -1,3 +1,10 @@
-# Mendix Widget Boilerplate
+# DecimalStyle 
 
-See [AppStoreWidgetBoilerplate](https://github.com/mendix/AppStoreWidgetBoilerplate/) for an example
+## Installation
++ download the widget from the app store
++ include on a page
+
+## Configuration
+![Impact Image](./icon.png)
+
+## Screenshots
